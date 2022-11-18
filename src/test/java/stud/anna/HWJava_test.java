@@ -4,16 +4,16 @@ import org.junit.jupiter.api.Test;
 
 
 
-public class HWFirst {
+public class HWJava_test {
     @Test
-     void math () {
+      void math () {
 
         byte num1 = 127;
         byte num2 = ++num1;
         System.out.println("Результат: " + num2);
     }
 
-    @Test
+   @Test
     void error () {
 
         byte num3 = 127;
